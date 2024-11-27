@@ -127,15 +127,19 @@
     font-weight: bold;
 }
 
+.posts--conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .span--posts {
     display: flex;
     font-family: var(--primary-font);
     font-size: 24px;
     color: #fff;
-    padding: 40px;
-    padding-left: 100px;
+    padding: 40px 40px 40px 40px;
     background-color: var(--content-blue);
-    width: 100%;
     font-weight: bold;
 }
 
@@ -203,7 +207,6 @@
 
 .container--footer{
     display: flex;
-    width: 100%;
     padding: 20px;
     background-color: var(--content-blue);
     font-family: var(--primary-font);
