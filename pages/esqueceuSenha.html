@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.hospitalinfantilsabara.org.br/wp-content/themes/sabara2020/assets/img/favicon32x32.png">
+    <title>Hospital Sabará - Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body--login">
+    <div class="container-login-geral">
+        <div class="container--conteudo-login">
+            <div class="container--login-header">
+                <img src="../imgs/Logo.png" class="logo--login">
+            </div>
+            <div class="container--login-main">
+                <div class="container--login-form">
+                    <h1 class="h1--titulo">Preencha os dados abaixo para solicitar a recuperação de senha:</h1>
+                    <form action="POST">
+                        <div class="container--login-input">
+                            <span class="span--form">Email</span><br>
+                            <input type="type" class="input--login" required>
+                        </div>
+                        <div class="container--login-input">
+                            <span class="span--form">CNPJ/CPF</span><br>
+                            <input type="password" class="input--login" required>
+                        </div>
+                        <button class="button--recuperarSenha">Recuperar Senha</button>
+                    </form>
+                    <div class="container--login-span">
+                        <span class="span--login">Deseja voltar ao login?</span> <a href="../pages/login.html" class="a--login-form">Acesse aqui</a>
+                    </div>
+                    
+                </div>
+                <div class="container--login-img">
+                    <img src="../imgs/EsqueceuSenha.png" class="img--esqueceuSenha">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
