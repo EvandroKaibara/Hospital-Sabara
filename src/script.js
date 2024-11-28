@@ -5,14 +5,14 @@ const cardWidth = document.querySelector('.post--card').offsetWidth;
 
 let currentScroll = 0;
 preBtn.addEventListener('click', () => {
-    currentScroll -= cardWidth * 4; 
+    currentScroll -= cardWidth * 3; 
     if (currentScroll < 0) currentScroll = 1;
     posts.style.transform = `translateX(-${currentScroll}px)`;
 });
 
 nxtBtn.addEventListener('click', () => {
     const maxScroll = posts.scrollWidth - posts.offsetWidth;
-    currentScroll += cardWidth * 1; 
+    currentScroll += cardWidth * 3; 
     if (currentScroll > maxScroll) currentScroll = maxScroll;
     posts.style.transform = `translateX(-${currentScroll}px)`;
 });
