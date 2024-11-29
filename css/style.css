@@ -387,3 +387,109 @@
 .img--esqueceuSenha{
     width: 500px;
 }
+
+.body--agendamento{
+    background-color: #F4F8FB;
+}
+
+.container--agendamento-lista{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    background-color: var(--content-blue);
+}
+
+.h1--agendamento{
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.a--agendamento{
+    font-family: var(--primary-font);
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--content-blue);
+    font-size: 24px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 50px;
+}
+
+.container--agendamento-pacientes{
+    width: 50%;
+}
+
+.container--agendamento-conteudo{
+    display: flex;
+}
+
+.h2--agendamento{
+    font-family: var(--primary-font);
+    color: var(--content-blue);
+    font-size: 28px;
+    padding: 40px;
+}
+
+.container--agendamento-card{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    background-color: #fff;
+    margin-left: 40px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.container--agendamento-card-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-titulo, .card-informacao{
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    text-align: left;
+}
+
+.h3--card{
+    color: var(--content-blue);
+    padding-bottom: 25px;
+    padding: 20px 60px;
+}
+
+.agendamento-tipo-rotina{
+    color: #E8AE00;
+}
+
+.agendamento-tipo-raiox{
+    color: #17BFDD;
+}
+
+.agendamento-tipo-neonatal{
+    color: #A8109E;
+}
+
+.span--agendamento{
+    color: #B5B5B5;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+}
+
+.img--calendario{
+    width: 500px;
+    padding-left: 400px;
+}
+
+.a--seta:hover{
+    cursor: pointer;
+}
