@@ -1,5 +1,5 @@
 # Hospital Sabará 
-![Logo do Projeto](./imgs/Logo.png)
+![Logo do Projeto](./imgs/FIAPSABARA.png)
 ---
 
 # Objetivo do Projeto
