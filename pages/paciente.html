@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.hospitalinfantilsabara.org.br/wp-content/themes/sabara2020/assets/img/favicon32x32.png">
+    <title>Hospital Sabará - Pacientes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body--agendamento">
+    <header>
+        <div class="header">
+            <div class="img--logo">
+                <img src="../imgs/Logo.png" class="img--logo">
+            </div>
+            <div class="header--nav">
+                <div class="span--nav">
+                    <a href="../index.html" class="nav--links">Início</a>
+                    <a href="https://www.hospitalinfantilsabara.org.br/?gclid=Cj0KCQiAo5u6BhDJARIsAAVoDWth8ZanH2XL-_ntd3OuGnoBpVBnK07-eXzfHMeE7w68YSq6qpDD1KkaAoXkEALw_wcB" class="nav--links">Hospital Sabará</a>
+                </div>
+                <div class="nav--login">
+                    <img src="../imgs/Medico.png" class="img--usuario">
+                    <a href="../pages/login.html" class="nav--links">Dr. Leandro</a>
+                    
+                    <ul>
+                        <li class="dropdown"><img src="../imgs/Seta.png">
+                            <div class="dropdown-menu">
+                                <div class="item-dropdown">
+                                    <a href="#" class="a--dropdown">
+                                        <img src="../imgs/Rosto Dropdown.png">
+                                        Pacientes
+                                    </a>
+                                </div>
+                                <div class="item-dropdown">
+                                    <a href="#" class="a--dropdown">
+                                        <img src="../imgs/Relogio Dropdown.png">
+                                        Agendamentos
+                                    </a>
+                                </div>
+                                <div class="item-dropdown">
+                                    <a href="#" class="a--dropdown">
+                                        <img src="../imgs/Lista Dropdown.png">
+                                        Chat com paciente
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>                
+            </div>
+        </div>
+    </header>    
+    <main>
+        <div class="container--paciente-lista">
+            <h1 class="h1--paciente">Internações</h1>
+            <a href="#" class="a--paciente">Internações</a>
+        </div>
+        <div class="container--paciente-conteudo">
+            <div class="container--pacientes-pacientes">
+                <h2 class="h2--paciente">Pacientes de Hoje</h2>
+                <div class="container--paciente-card-estavel">
+                    <div class="container--paciente-card-texto">
+                        <div class="card-paciente-card-titulo">
+                            <h3 class="h3--card">Nome: João Silva</h3>
+                            <h3 class="h3--card">Idade: 7 anos</h3>
+                            <h3 class="h3--card">Responsável: Maria Silva (Mãe)</h3>
+                        </div>
+                    </div>
+                    <span class="span--paciente">Quarto 101, Leito 2</span>
+                    <button class="button--paciente" id="mostrarDiv1">Ver detalhes</button>
+                </div>
+                <div class="container--paciente-informacoes1">
+                    <p class="p--paciente">Diagnóstico Atual: Recuperação de bronquite aguda com necessidade de nebulização.</p>
+                    <ul class="ul--paciente">
+                        <p>Últimas Atualizações:</p>
+                        <li>Nebulização realizada às 10h; próxima prevista para 14h.</li>
+                        <li>Alta prevista em 24 horas se evolução continuar positiva.</li>
+                    </ul>
+                    <p class="p--paciente">Equipe Médica Responsável: Dr. Leandro Mendes</p>
+                </div>
+            <div class="container--pacientes-pacientes">
+                <div class="container--paciente-card-observacao">
+                    <div class="container--paciente-card-texto">
+                        <div class="card-paciente-card-titulo">
+                            <h3 class="h3--card">Nome: Ana Santos</h3>
+                            <h3 class="h3--card">Idade: 5 anos</h3>
+                            <h3 class="h3--card">Responsável: Carlos Santos (Pai)</h3>
+                        </div>
+                    </div>
+                    <span class="span--paciente">Quarto 102, Leito 1</span>
+                    <button class="button--paciente" id="mostrarDiv2">Ver detalhes</button>
+                </div>
+                <div class="container--paciente-informacoes2">
+                    <p class="p--paciente">Diagnóstico Atual: Infecção respiratória superior (gripe severa), acompanhada de febre persistente.</p>
+                    <ul class="ul--paciente">
+                        <p>Últimas Atualizações:</p>
+                        <li>Febre controlada às 12h, próxima avaliação às 16h.</li>
+                        <li>Exame de sangue realizado, aguardando resultados.</li>
+                    </ul>
+                    <p class="p--paciente">Equipe Médica Responsável: Dr. Leandro Mendes</p>
+                </div>
+            </div>
+            <div class="container--pacientes-pacientes">
+                <div class="container--paciente-card-grave">
+                    <div class="container--paciente-card-texto">
+                        <div class="card-paciente-card-titulo">
+                            <h3 class="h3--card">Nome: Pedro Oliveira</h3>
+                            <h3 class="h3--card">Idade: 8 anos</h3>
+                            <h3 class="h3--card">Responsável: José Oliveira (Avô)</h3>
+                        </div>
+                    </div>
+                    <span class="span--paciente">UTI Infantil, Leito 3</span>
+                    <button class="button--paciente" id="mostrarDiv3">Ver detalhes</button>
+                </div>
+                <div class="container--paciente-informacoes3">
+                    <p class="p--paciente">Diagnóstico Atual: Pneumonia grave com complicações respiratórias.</p>
+                    <ul class="ul--paciente">
+                        <p>Últimas Atualizações:</p>
+                        <li>Em ventilação assistida, saturação estável desde 9h.</li>
+                        <li>Exame de imagem programado para hoje às 15h.</li>
+                    </ul>
+                    <p class="p--paciente">Equipe Médica Responsável: Dr. Leandro Mendes</p>
+                </div>
+            </div>
+            <div class="container--pacientes-pacientes">
+                <div class="container--paciente-card-estavel">
+                    <div class="container--paciente-card-texto">
+                        <div class="card-paciente-card-titulo">
+                            <h3 class="h3--card">Nome: Luiza Carvalho</h3>
+                            <h3 class="h3--card">Idade: 3 anos</h3>
+                            <h3 class="h3--card">Responsável: Sofia Carvalho (Mãe)</h3>
+                        </div>
+                    </div>
+                    <span class="span--paciente">Quarto 103, Leito 1</span>
+                    <button class="button--paciente" id="mostrarDiv4">Ver detalhes</button>
+                </div>
+                <div class="container--paciente-informacoes4">
+                    <p class="p--paciente">Diagnóstico Atual: Crise leve de asma, monitorada após uso de broncodilatadores.</p>
+                    <ul class="ul--paciente">
+                        <p>Últimas Atualizações:</p>
+                        <li>Sem sinais de desconforto respiratório desde a manhã.</li>
+                        <li>Próxima nebulização às 17h.</li>
+                    </ul>
+                    <p class="p--paciente">Equipe Médica Responsável: Dr. Leandro Mendes</p>
+                </div>
+            </div>
+            <div class="container--pacientes-pacientes">
+                <div class="container--paciente-card-observacao">
+                    <div class="container--paciente-card-texto">
+                        <div class="card-paciente-card-titulo">
+                            <h3 class="h3--card">Nome: Sofia Martins</h3>
+                            <h3 class="h3--card">Idade: 6 anos</h3>
+                            <h3 class="h3--card">Responsável: Antônio Martins (Pai)</h3>
+                        </div>
+                    </div>
+                    <span class="span--paciente">Quarto 104, Leito 2</span>
+                    <button class="button--paciente" id="mostrarDiv5">Ver detalhes</button>
+                </div>
+                <div class="container--paciente-informacoes5">
+                    <p class="p--paciente">Diagnóstico Atual: Sinusite aguda com acompanhamento devido à febre e tosse persistentes.</p>
+                    <ul class="ul--paciente">
+                        <p>Últimas Atualizações:</p>
+                        <li>Hidratação intravenosa em curso, resposta positiva até agora.</li>
+                        <li>Próximo exame clínico agendado para 18h.</li>
+                    </ul>
+                    <p class="p--paciente">Equipe Médica Responsável: Dr. Leandro Mendes</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container--footer">
+            © 2024 Sabará Hospital Infantil. Todos os direitos reservados
+        </div>
+    </footer>
+
+    <script src="../src/paciente1.js"></script>
+    <script src="../src/paciente2.js"></script>
+    <script src="../src/paciente3.js"></script>
+    <script src="../src/paciente4.js"></script>
+    <script src="../src/paciente5.js"></script>
+    <script src="../src/paciente5.js"></script>
+</body>
+</html>

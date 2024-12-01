@@ -16,3 +16,4 @@ nxtBtn.addEventListener('click', () => {
     if (currentScroll > maxScroll) currentScroll = maxScroll;
     posts.style.transform = `translateX(-${currentScroll}px)`;
 });
+
